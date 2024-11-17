@@ -21,7 +21,7 @@ submit.addEventListener("click", function(){
 console.log(cityInput.value)
 
 let getWeather = async (city) => {
-    let weatherAPI = 'http://api.weatherapi.com/v1/current.json?key=4f18772c02454da5ac605929241610&q='+city+''
+    let weatherAPI = 'https://api.weatherapi.com/v1/current.json?key=4f18772c02454da5ac605929241610&q='+city+''
     let weatherObj = await fetch(weatherAPI)
     let response = weatherObj.json()
     return response
