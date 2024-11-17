@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#city-input,#submit:focus{
+    outline: none;
+}
+#city-input{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 17px;
+    font-family: Roboto;
+}
+#title{
+    font-size: 28px;
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+}
+#subtitle{
+    font-size: 24px;
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+}
+.container{
+    margin-top: 170px;
+    width: 75%;
+    max-width: 650px;
+}
+#submit{
+    width: 80px;
+}
+#border-input{
+    height: 3px;
+    background-color: black;
+    width: 75%;
+}
+#titles{
+    background-image: linear-gradient(270deg, rgb(215, 192, 192) , rgb(122, 221, 244));
+    position: absolute;
+    width: 100%;
+    top: 0;
+    border-bottom: 3px solid black;
+}
+
+@media (max-width: 350px){
+    #city-input{
+        margin-top: 100px;
+        width: 100%;
+    }
+}
+
+.weather-section,.others{
+    font-family: "Playwrite GB S", cursive;
+    border: 3px solid black;
+    width: 90%;
+    max-width: 400px;
+    padding: 10px 20px;
+    background-image: linear-gradient(270deg, rgb(215, 192, 192) , rgb(122, 221, 244));
+}
+.display{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    display: none;
+}
+.weather-section p,.others p{
+    padding:5px 0px;
+}
+.temp-cel-input{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 50px;
+    background-color: rgb(255, 104, 104);
+    color: white;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 0 black;
+    font-family: "Playwrite GB S", cursive;
+    display: none;
+}
+.font-bold{
+    font-weight: bold;
+}

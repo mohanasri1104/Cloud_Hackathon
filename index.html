@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" type="text/css" href="weather.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header id="titles">
+        <h1 id="title">A REAL TIME WEATHER FORECASTER</h1>
+        <h1 id="subtitle">KNOW EVERYTHING BETTER!</h1>
+        </header>
+
+        
+        
+        <div class="container">
+            <center>
+            <input type="text" id="city-input" placeholder="Enter a city">
+            <button id="submit" class="btn btn-primary btn-block">SUBMIT</button>
+            </center>
+        </div>
+
+        <hr id = "border-input">
+        
+            <center>
+            <div class="temp-cel-input"></div>
+            </center>
+        
+        
+
+        <div class="display">
+
+            
+
+        <div class="weather-section">
+
+            
+            <p id="temp-fah">TEMPERATURE(FAHRENHEIT): <span id="temp-fah-input" class="font-bold"></span></p>
+            <p id="win-deg">WIND DEGREE: <span id="win-deg-input" class="font-bold"></span></p>
+            <p id="win-dir">WIND DIRECTION: <span id="win-dir-input" class="font-bold"></span></p>
+            <p id="wind-kph">WIND SPEED(KM PER HOUR): <span id="wind-kph-input" class="font-bold"></span></p>
+
+        </div>
+
+        <div class="others">
+            <p id="heatindex-cel">HEAT INDEX(CELSIUS): <span id="heatindex-cel-input" class="font-bold"></span></p>
+            <p id="heatindex-fah">HEAT INDEX(FAHRENHEIT): <span id="heatindex-fah-input" class="font-bold"></span></p>
+            <p id="humidity">HUMIDITY: <span id="humidity-input" class="font-bold"></span></p>
+            <p id="pressure-mb">PRESSURE(MILLIBAR): <span id="pressure-input" class="font-bold"></span></p>
+            <p id="uv-index">UV INDEX: <span id="uv-index-input" class="font-bold"></span></p>
+        </div>
+        
+        </div>
+    
+
+        <script src="weather.js"></script>
+    </body>
+</html>
